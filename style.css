@@ -1,0 +1,59 @@
+body{
+  background-color: #BEC4E1;
+}
+#container{
+ font-family: arial;
+  font-size: 30px;
+  #width: 100%;
+  margin: 30px 30px;
+  padding: 20px 20px;
+  t#ext-align: center;
+  #display: flex;
+ justify-content: justify;  
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+#survey-form{
+  background-color: white;
+  margin: auto;
+  padding: auto;
+  width: 999px;
+  height: 100%;
+  padding: 10px 10px 20px 30px;
+}
+#frontend{
+  text-align: center;
+ #display: block;
+  #display: flex;
+  float: left;
+  #color: red;
+  
+}
+.container2{
+  #display: block;
+  #padding: 10px 0px 0px 270px;
+  margin: auto;
+}
+.styleinput{
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5%;
+  background-color: #BEC4E1;
+}
+#submit{
+ padding: 10px 25px 10px 25px;
+  #border-radius:  5%;
+  font-family: arial;
+  background-color: #BEB4F2;
+}
+#dd{
+   padding: 10px 25px 10px 25px;
+  #border-radius:  5%;
+  font-family: arial;
+  background-color: #BEB4F2;
+  font-size: 20px;
+}

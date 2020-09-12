@@ -1,0 +1,46 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+    <title> Survey Form</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<main id="container" >
+  <h1 id="title">Cherishcode Survey Form!</h1>
+  <p id="description">Hello everyone! the purpose of the form is to get know the user's perspective of what they want to see or learn more!</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="enter your name" class="styleinput" required></label><br><br>
+    <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="enter your email" class="styleinput" required></label><br><br>
+    <label for="age" id="number-label"> Age: <input id="number" type="number" min="13"  max="99" name="age" placeholder="age" pattern="[+-]?[0-9]" class="styleinput"></label><br><br>
+    <label for="info" id="dropdown"> Which option best describe your current role: </label>
+    <select name="info" id="dd">
+      <option value="student">Student</option>
+      <option value="fulltimejob">Full time job</option>
+      <option value="frelancer">Freelancer</option>
+      <option value="intern">Intern</option>
+      <option value="dontwanttosay">Prefer not to say</option>
+    </select><br><br>
+    <label for="info" id="survey"> What do you use the most on the internet</label>
+    <select name="info" id="dd">
+      <option value="blog">Blog</option>
+      <option value="Youtube">Youtube</option>
+      <option value="Instagram">Instagram</option>
+      <option value="udemy">Udemy</option>
+    </select><br><br>
+    <label for="main">Would you refer cherishcode to a friend </label><br>
+    <label for="yes"><input type="radio" name="yes-no-maybe" id="yes" value="yes">Yes</label>
+        <label for="no"><input type="radio" name="yes-no-maybe" id="no" value="no">No</label>
+        <label for="mybe"><input type="radio" name="yes-no-maybe" id="maybe" value="maybe">Maybe</label><br><br>
+    <label for="language"> What role are you more inclined to?</label><br>
+    <div class="container2">
+    <label for="frontend" id="frontend"><input type="checkbox" id="frontend" value="frontend">Front end development</label><br>
+    <label for="backend" id="frontend"><input type="checkbox" id="frontend" value="backend">Back end development</label><br>
+    <label for="datasci" id="frontend" ><input type="checkbox" id="frontend" value="datasci">Data science</label><br>
+    <label for="software"id="frontend" ><input type="checkbox" id="frontend" value="software">Software development</label><br>
+    <label for="ba" id="frontend"><input type="checkbox" id="frontend" value="ba">Business Analyst</label><br><br></div>
+    <label for="txtarea">What would you like to learn</label><br>
+    <textarea rows="6" >Eg: machine learning,web stack</textarea><br><br>
+    <button type="submit" id="submit" >Submit</button>
+  </form>
+  
+</main>
+</body>
